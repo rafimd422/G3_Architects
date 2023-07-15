@@ -1,7 +1,9 @@
 import React from 'react'
 import architect from './images/architect.png'
 
-const OtherFeatures = () => {
+const OtherFeatures = (props) => {
+
+    const {versionOne, versionTwo, versionThree, versionFour} = props;
   return (
 <section className="moreFeatures">
     <div className="description">
@@ -13,19 +15,19 @@ const OtherFeatures = () => {
    
 
     <div className="descBox">
-        <h3>Dexktop & Mobile Version</h3>
+        <h3>{versionOne}</h3>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
     </div>
     <div className="descBox">
-        <h3>Drag & Drop Builder</h3>
+        <h3>{versionTwo}</h3>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
     </div>
     <div className="descBox">
-        <h3>Super Easy to Edit</h3>
+        <h3>{versionThree}</h3>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
     </div>
     <div className="descBox">
-        <h3>Dexktop & Mobile Version</h3>
+        <h3>{versionFour}</h3>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</p>
     </div>
     </div>
