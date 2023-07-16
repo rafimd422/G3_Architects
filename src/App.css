@@ -88,15 +88,12 @@ margin: 0 auto;
 object-fit:contain;
 border-radius: 8px;
 }
-
-
 @media (max-width: 1200px) { 
 .headerImg img{
-max-width: 960px;
-max-height: 650px;
+width: 960px;
+height: 650px;
 }
 }
-
 @media (max-width: 992px) { 
 .headerImg img{
 width: 90%;
@@ -542,3 +539,68 @@ padding: 1rem;
 }
 }
 /*Another feature section Done*/
+
+.factsTitle {
+width: 80%;
+margin: 3rem auto;
+}
+
+.factsTitle h3 {
+    margin: 1rem 0;
+font-size: 2.25rem;
+}
+.factsTitle p {
+    color:#727272;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 26px;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.boxborder {
+ height: 12rem;
+ width: 13rem;
+ border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+box-sizing: border-box;
+padding: 2rem;
+margin: 1.8rem;
+}
+.boxborder h1{
+padding: 0.8rem 0;
+}
+.boxborder p{
+    color:#727272;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1380px) {
+    .box {
+width: 80%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .box {
+width: 99%;
+gap: 0.4rem;
+    }
+    .boxborder {
+height: 11rem;
+width: 12rem;
+       margin: 1rem;
+       }
+       .boxborder h1{
+padding: 0.4rem 0;
+}
+.boxborder p{
+    font-size: 12px;
+}
+}
+/* facts added */
