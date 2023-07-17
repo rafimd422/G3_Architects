@@ -1,3 +1,6 @@
+p {
+    color:#727272;
+}
 header {
 height: fit-content;
 width: 100vw;
@@ -46,7 +49,6 @@ font-weight: 700;
 
 .headerDescription p{
 font-size: 16px;
-color:#727272;
 margin: 18px 0px;
 font-weight: 400;
 line-height: 20px;
@@ -199,7 +201,6 @@ color: #FF900E;
 font-weight: 700;
 }
 .featureDesc p {
-color: #727272;
 font-size: 16px;
 font-weight: 400;
 line-height: 20px;
@@ -366,7 +367,6 @@ font-size: 45px;
 font-weight: 700;
 }
 .description p {
-color:#727272;
 font-size: 15px;
 font-weight: 400;
 line-height: 24px;
@@ -544,13 +544,11 @@ padding: 1rem;
 width: 80%;
 margin: 3rem auto;
 }
-
 .factsTitle h3 {
     margin: 1rem 0;
 font-size: 2.25rem;
 }
 .factsTitle p {
-    color:#727272;
     font-size: 14px;
     font-style: normal;
     line-height: 26px;
@@ -563,9 +561,9 @@ font-size: 2.25rem;
     margin: 0 auto;
 }
 .boxborder {
- height: 12rem;
- width: 13rem;
- border-radius: 8px;
+height: 12rem;
+width: 13rem;
+border-radius: 8px;
 border: 1px solid #FF900E;
 text-align: center;
 box-sizing: border-box;
@@ -576,7 +574,6 @@ margin: 1.8rem;
 padding: 0.8rem 0;
 }
 .boxborder p{
-    color:#727272;
     font-size: 14px;
     font-weight: 600;
 }
