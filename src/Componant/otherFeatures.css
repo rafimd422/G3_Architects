@@ -1,4 +1,4 @@
-.moreFeatures {
+.moreFeatures{
 width: 96vw;
 height: fit-content;
 display: flex;
@@ -7,11 +7,11 @@ gap: 2.4rem;
 margin: 3.4rem auto;
 overflow: hidden;
 }
-.description {
+.description{
 margin-top: 1rem;
 margin-left: 0.4rem;
 }
-.featureTitle {
+.featureTitle{
 height: 106px;
 display: flex;
 gap: 20px;
@@ -21,19 +21,19 @@ background: #FF900E;
 width: 5px;
 height: 104px;
 }
-.featureTitle h2 {
+.featureTitle h2{
 color: #131313;
 font-size: 45px;
 font-weight: 700;
 }
-.description p {
+.description p{
 font-size: 15px;
 font-weight: 400;
 line-height: 24px;
 margin: 0.4rem 0;
 max-width: 580px;;
 }
-.descBox {
+.descBox{
 padding: 20px;
 width: 540px;
 height: 140px;
@@ -45,21 +45,21 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 }
-.descBox h3 {
+.descBox h3{
 font-size: 20px;
 font-weight: 600;
 }
-.featureImg {
+.featureImg{
 position: relative;
 }
-.featureImg img {
+.featureImg img{
 width: 700px;
 height: 900px;
 flex-shrink: 0;
 object-fit: contain;
 margin-left: 1rem;
 }
-.featureImg button {
+.featureImg button{
 color: #FFF;
 text-align: center;
 font-size: 42px;
@@ -72,13 +72,13 @@ margin-bottom: 2rem;
 position: absolute;
 bottom: 0;
 }
-.featureImg span {
+.featureImg span{
 font-size: 20px;
 font-weight: 400;
 line-height: 20px;
 }
-@media only screen and (max-width: 1380px) {
-.moreFeatures {
+@media only screen and (max-width: 1380px){
+.moreFeatures{
 width: 100vw;
 gap: 1.4rem;
 }
@@ -86,42 +86,42 @@ gap: 1.4rem;
 background: #FF900E;
 height: 90px;
 }
-.featureTitle h2 {
+.featureTitle h2{
 font-size: 36px;
 font-weight: 700;
 }
-.description p {
+.description p{
 font-size: 14px;
 font-weight: 400;
 line-height: 18px;
 }
-.descBox {
+.descBox{
 padding: 16px;
 width: 510px;
 height: 120px;
 margin: 0.8rem 0;
 }
-.descBox h3 {
+.descBox h3{
 font-size: 16px;
 }
-.featureImg img {
+.featureImg img{
 width: 500px;
 height: 760px;
 }
-.featureImg button {
+.featureImg button{
 color: #FFF;
 font-size: 36px;
 font-weight: 600;
 padding: 24px 22px;
 margin-bottom: 4rem;
 }
-.featureImg span {
+.featureImg span{
 font-size: 16px;
 font-weight: 300;
 }
 }
-@media only screen and (max-width: 1081px) {
-.moreFeatures {
+@media only screen and (max-width: 1081px){
+.moreFeatures{
 width: 96vw;
 gap: 1.2rem;
 margin: 2rem auto;
@@ -129,71 +129,71 @@ flex-wrap: wrap;
 flex-direction: column-reverse;
 align-items: center;
 }
-.featureImg button {
+.featureImg button{
 font-size: 26px;
 margin-bottom: 0;
 }
-.featureImg img {
+.featureImg img{
 margin-left: 3rem;
 }
 }
-@media (max-width: 640px) {
+@media (max-width: 640px){
 .featureImg{
 width: 100vw;
 }
-.featureImg button {
+.featureImg button{
 right: 20%;
 padding: 1.2rem;
 margin-bottom: 0;
 margin-left: 2rem;
 }
-.featureImg img {
+.featureImg img{
 margin-left: 2rem;
 width: 380px;
 height: 510px;
 }
-.featureTitle h2 {
+.featureTitle h2{
 font-size: 32px;
 font-weight: 700;
 }
-.description p {
+.description p{
 font-size: 12px;
 line-height: 20px;
 max-width: 388px;
 }
-.descBox {
+.descBox{
 padding: 10px;
 width: 400px;
 height: 120px;
 margin: 0.4rem 0;
 }
 }
-@media (max-width: 456px) {
-.descBox {
+@media (max-width: 456px){
+.descBox{
 padding: 8px;
 width: 320px;
 height: 90px;
 margin: 0.4rem 0;
 }
-.descBox h3 {
+.descBox h3{
  font-size: 12px;
 }
-.description p {
+.description p{
 font-size: 10px;
 line-height: 20px;
 max-width: 330px;
 }
-.featureImg img {
+.featureImg img{
 margin-left: 2rem;
 width: 380px;
 height: 510px;
 }
-.featureImg img {
+.featureImg img{
 margin: 0 auto; 
 width: 350px;
 height: 400px;
 }
-.featureImg button {
+.featureImg button{
 right: 13.5%;
 padding: 1rem;
 }

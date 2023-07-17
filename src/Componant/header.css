@@ -1,44 +1,44 @@
-header {
+header{
 height: fit-content;
 width: 100vw;
 background: rgba(255, 144, 14, 0.10);
 }
-nav {
+nav{
 height: 90px;
 width: 100vw;
 display: flex;
 justify-content: space-around;
 align-items: center;
 }
-nav .logo {
+nav .logo{
 font-size: 36px;
 font-weight: 700;
 }
-nav ul {
+nav ul{
 display: flex;
 gap: 3.4rem;
 }
-nav ul li {
+nav ul li{
 list-style-type: none;
 
 }
-nav ul li a {
+nav ul li a{
 text-decoration: none;
 color: #131313;
 font-size: 18px;
 }
-nav ul li a:hover {
+nav ul li a:hover{
 color: #b47125;
 transition: all 0.6s;
 }
-.headerDescription {
+.headerDescription{
 max-width: 850px;
 text-align: center;
 margin: 0 auto;
 margin-top: 16px;
 }
 
-.headerDescription h2 {
+.headerDescription h2{
 text-transform: capitalize;
 font-size: 54px;
 font-weight: 700;
@@ -63,13 +63,13 @@ border: none;
 margin: 12px 0px;
 }
 
-.headerDescription button:hover {
+.headerDescription button:hover{
 background-color: whitesmoke;
 border-radius: 8px;
 transition: all 1s;
 color: #FF900E;
 }
-.headerDescription button:active {
+.headerDescription button:active{
 color: whitesmoke;
 background-color: black;
 }
@@ -87,23 +87,23 @@ margin: 0 auto;
 object-fit:contain;
 border-radius: 8px;
 }
-@media (max-width: 1200px) { 
+@media (max-width: 1200px){ 
 .headerImg img{
 width: 960px;
 height: 650px;
 }
 }
-@media (max-width: 992px) { 
+@media (max-width: 992px){ 
 .headerImg img{
 width: 90%;
 max-height: 440px;
 }
-.headerDescription {
+.headerDescription{
 margin-top: 8px;
 width: 76%;
 }
 
-.headerDescription h2 {
+.headerDescription h2{
 font-size: 42px;
 }
 
@@ -120,38 +120,38 @@ font-weight: 500;
 margin: 8px 0px;
 }
 }
-@media (max-width: 770px) { 
+@media (max-width: 770px){ 
 .headerImg img{
 width: 90%;
 margin-top: 0.8rem;
 }
-.headerDescription h2 {
+.headerDescription h2{
 font-size: 38px;
 }
-nav .logo {
+nav .logo{
 font-size: 30px;
 font-weight: 600;
 }
-nav ul {
+nav ul{
 gap: 1.6rem;
 }
-nav ul li a {
+nav ul li a{
 font-size: 16px;
 }
  }
- @media (max-width: 600px) { 
+ @media (max-width: 600px){ 
 
-nav .logo {
+nav .logo{
 display: none;
 }
-nav ul {
+nav ul{
 gap: 1.8rem;
 }
 
-.headerDescription h2 {
+.headerDescription h2{
 font-size: 34px;
 }
-.headerDescription {
+.headerDescription{
 margin-top: 6px;
 width: 80%;
 }

@@ -17,7 +17,7 @@ export default function Header() {
                 <li><a href="#">Login</a></li>
             </ul>
         </nav>
-{/* <!-- navigation seciton done --> */}
+{/* <!-- navigation seciton complated here --> */}
 <div class="headerDescription">
     <h2>Brand new <br/> group of architects</h2>
     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>

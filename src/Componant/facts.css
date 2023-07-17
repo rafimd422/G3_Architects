@@ -1,24 +1,24 @@
-.factsTitle {
+.factsTitle{
 width: 80%;
 margin: 3rem auto;
 }
-.factsTitle h3 {
+.factsTitle h3{
 margin: 1rem 0;
 font-size: 2.25rem;
 }
-.factsTitle p {
+.factsTitle p{
 font-size: 14px;
 font-style: normal;
 line-height: 26px;
 }
-.box {
+.box{
 display: flex;
 justify-content: space-evenly;
 gap: 0.8rem;
 flex-wrap: wrap;
 margin: 0 auto;
 }
-.boxborder {
+.boxborder{
 height: 12rem;
 width: 13rem;
 border-radius: 8px;
@@ -36,17 +36,17 @@ font-size: 14px;
 font-weight: 600;
 }
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1380px){
 .box {
 width: 80%;
 }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px){
 .box {
 width: 99%;
 gap: 0.4rem;
 }
-.boxborder {
+.boxborder{
 height: 11rem;
 width: 12rem;
    margin: 1rem;
