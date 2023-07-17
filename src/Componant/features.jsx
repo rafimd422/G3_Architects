@@ -5,7 +5,6 @@ import team2 from './images/team2.png'
 import team3 from './images/team3.png'
 import team4 from './images/team4.png'
 
-
 export default function Features() {
   return (
     <section className="features">
