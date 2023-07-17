@@ -1,0 +1,163 @@
+header {
+    height: fit-content;
+    width: 100vw;
+    background: rgba(255, 144, 14, 0.10);
+    }
+    nav {
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    nav .logo {
+    font-size: 36px;
+    font-weight: 700;
+    }
+    nav ul {
+    display: flex;
+    gap: 3.4rem;
+    }
+    nav ul li {
+    list-style-type: none;
+    
+    }
+    nav ul li a {
+    text-decoration: none;
+    color: #131313;
+    font-size: 18px;
+    }
+    nav ul li a:hover {
+    color: #b47125;
+    transition: all 0.6s;
+    }
+    .headerDescription {
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 16px;
+    }
+    
+    .headerDescription h2 {
+    text-transform: capitalize;
+    font-size: 54px;
+    font-weight: 700;
+    }
+    
+    .headerDescription p{
+    font-size: 16px;
+    margin: 18px 0px;
+    font-weight: 400;
+    line-height: 20px;
+    }
+    
+    .headerDescription button{
+    padding: 15px 19px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #FF900E;
+    border: none;
+    margin: 12px 0px;
+    }
+    
+    .headerDescription button:hover {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    transition: all 1s;
+    color: #FF900E;
+    }
+    .headerDescription button:active {
+    color: whitesmoke;
+    background-color: black;
+    }
+    .headerImg{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.8rem;
+    overflow: hidden;
+    }
+    .headerImg img{
+    max-width: 1200px;
+    max-height: 600px;
+    margin: 0 auto;
+    object-fit:contain;
+    border-radius: 8px;
+    }
+    @media (max-width: 1200px) { 
+    .headerImg img{
+    width: 960px;
+    height: 650px;
+    }
+    }
+    @media (max-width: 992px) { 
+    .headerImg img{
+    width: 90%;
+    max-height: 440px;
+    }
+    .headerDescription {
+    margin-top: 8px;
+    width: 76%;
+    }
+    
+    .headerDescription h2 {
+    font-size: 42px;
+    }
+    
+    .headerDescription p{
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 400;
+    }
+    
+    .headerDescription button{
+    padding: 14px 17px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 0px;
+    }
+    }
+    
+    @media (max-width: 770px) { 
+    .headerImg img{
+    width: 90%;
+    margin-top: 0.8rem;
+    }
+    .headerDescription h2 {
+    font-size: 38px;
+    }
+    nav .logo {
+    font-size: 30px;
+    font-weight: 600;
+    }
+    nav ul {
+    gap: 1.6rem;
+    }
+    nav ul li a {
+    font-size: 16px;
+    }
+     }
+     @media (max-width: 600px) { 
+    
+    nav .logo {
+    display: none;
+    }
+    nav ul {
+    gap: 1.8rem;
+    }
+    
+    .headerDescription h2 {
+    font-size: 34px;
+    }
+    .headerDescription {
+    margin-top: 6px;
+    width: 80%;
+    }
+    .headerDescription button{
+    padding: 16px 20px;
+    font-weight: 600;
+    }
+    }

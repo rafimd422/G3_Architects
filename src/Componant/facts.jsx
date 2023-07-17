@@ -1,4 +1,5 @@
 import React from 'react'
+import './facts.css'
 import ribon from './images/icons/ribon.png'
 import projects from './images/icons/projects.png'
 import customers from './images/icons/customers.png'

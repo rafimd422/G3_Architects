@@ -1,4 +1,5 @@
 import React from 'react'
+import './features.css'
 import team1 from './images/team1.png'
 import team2 from './images/team2.png'
 import team3 from './images/team3.png'

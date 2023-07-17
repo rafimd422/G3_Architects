@@ -1,4 +1,5 @@
 import React from 'react'
+import './otherFeatures.css'
 import architect from './images/architect.png'
 
 const OtherFeatures = (props) => {
